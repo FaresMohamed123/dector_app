@@ -30,7 +30,7 @@ class OnBoarging extends StatelessWidget {
                     SizedBox(width: 10.w),
                     Text(
                       'Docdoc',
-                      style: TextStyles.font24Block700weight,
+                      style: TextStyles.font24BlueBold,
                     ),
                   ],
                 ),
@@ -63,7 +63,7 @@ class OnBoarging extends StatelessWidget {
                       bottom: 1.h,
                       child: Text('Best Doctor \n Appointment App',
                           textAlign: TextAlign.center,
-                          style: TextStyles.font32bluebold),
+                          style: TextStyles.font32BlueBold),
                     ),
                   ],
                 ),
@@ -71,7 +71,7 @@ class OnBoarging extends StatelessWidget {
                 Text(
                   'Manage and schedule all of your medical appointments easily\n with Docdoc to get a new experience.',
                   textAlign: TextAlign.center,
-                  style: TextStyles.font10grey,
+                  style: TextStyles.font12GrayMedium,
                 ),
                 Padding(
                   padding: EdgeInsets.all(40.0.w),
@@ -87,7 +87,7 @@ class OnBoarging extends StatelessWidget {
                     color: AppColor.primaryColor,
                     child: Text(
                       'Get Started',
-                      style: TextStyles.font12white,
+                      style: TextStyles.font12witeRegular,
                     ),
                   ),
                 ),
