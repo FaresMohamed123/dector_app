@@ -24,6 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.only(
@@ -113,6 +114,10 @@ class _LoginScreenState extends State<LoginScreen> {
               },
           ),
         ],
+=======
+      appBar: AppBar(
+        title: const Text('22222'),
+>>>>>>> 2156bad83de9ab2b5edf3cc702f7451c8f05ea4b
       ),
     )
           ]),
